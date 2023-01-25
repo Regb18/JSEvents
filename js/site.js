@@ -123,9 +123,7 @@ function buildDropdown() {
 function displayStats(eventsArray) {
     let stats = calculateAll(eventsArray);
 
-// Do some math
-
-
+    
     document.getElementById('total').textContent = stats.sum.toLocaleString();
     document.getElementById('average').textContent = stats.average.toLocaleString(
         "en-US", {
