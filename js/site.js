@@ -164,15 +164,6 @@ function calculateAll(eventsArray) {
 }
 
 
-// Add Median
-function calculateMedian() {
-    // order numbers
-
-
-
-
-}
-
 function displayEventData(eventsArray) {
     let tableBody = document.getElementById('eventTableBody');
     const eventTableRowTemplate = document.getElementById('eventTableRowTemplate');
@@ -283,4 +274,11 @@ function saveEventData() {
   buildDropdown();
   document.getElementById('statsHeader').textContent = 'All';
   document.getElementById('newEventForm').reset();
+}
+
+
+// Add Median
+function calculateMedian() {
+  // order numbers
+
 }

@@ -93,3 +93,21 @@ footer {
     font-size: 4rem;
     padding-left: .5rem;
 }
+
+.btn-primary {
+    color: white !important;
+    background-color: var(--reg-primary-color) !important;
+    border-color: var(--reg-secondary-color) !important;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.1) !important;
+    border-color: var(--reg-highlight-color) !important; 
+}
+
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    filter: brightness(1.1) !important;
+    border-color: var(--reg-primary-color);
+}
